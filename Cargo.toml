@@ -1,0 +1,12 @@
+[package]
+name = "least_action"
+version = "0.1.0"
+authors = ["axect <axect@outlook.kr>"]
+edition = "2018"
+
+[dev-dependencies]
+criterion="0.2"
+
+[[bench]]
+name = "bench"
+harness = false
